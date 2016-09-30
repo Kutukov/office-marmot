@@ -25,7 +25,7 @@ public class Controller_char : MonoBehaviour {
 			animator.SetFloat ("speed", z);
 			animator.SetFloat ("rotate", x);
 			if (x != 0) {
-				transform.Rotate (0f, x * speed, 0f);
+				transform.Rotate (0f, x * 5, 0f);
 			}
 			if (z != 0) {
 				//animator.SetBool ("run", true);
