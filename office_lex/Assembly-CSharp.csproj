@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Controller_char.cs" />
+     <Compile Include="Assets\Door_rev.cs" />
      <Compile Include="Assets\scripts\Massa.cs" />
      <Compile Include="Assets\scripts\Trig.cs" />
      <Compile Include="Assets\scripts\scriptl.cs" />
