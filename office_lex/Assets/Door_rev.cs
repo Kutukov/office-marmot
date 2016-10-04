@@ -29,14 +29,14 @@ public class Door_rev : MonoBehaviour {
 
 
 
-		if (ex == true) {
+		/*if (ex == true) {
 			i = i + Time.deltaTime * 1;
 			Debug.Log (i);
 		} else {
 			i = 0;
 		}
 
-		Debug.Log (ex);
+		Debug.Log (ex);*/
 	}
 
 	void OnTriggerExit(Collider col) {

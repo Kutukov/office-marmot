@@ -76,6 +76,7 @@
     <Compile Include="Assets\scripts\scriptl.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\NewSurfaceShader.shader" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
   </ItemGroup>
