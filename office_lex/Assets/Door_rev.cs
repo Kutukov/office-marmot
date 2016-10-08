@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Door_rev : MonoBehaviour {
-	float i;
+	Quaternion i;
 	bool ex = false;
 	public GameObject petel;
 	public Collider player;
@@ -11,16 +11,17 @@ public class Door_rev : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//rb = GetComponent<Rigidbody>();
+		i = petel.transform.rotation;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 		if (ex == true) {
-			if (petel.transform.rotation != Quaternion.identity) {
-				if (petel.transform.rotation.y > Quaternion.identity.y) {
+			if (petel.transform.rotation != i) {
+				if (petel.transform.rotation.y > i.y) {
 					petel.transform.Rotate (new Vector3 (0, -1, 0) * 25 * Time.deltaTime);
-				} else if (petel.transform.rotation.y < Quaternion.identity.y) {
+				} else if (petel.transform.rotation.y < i.y) {
 					petel.transform.Rotate (new Vector3 (0, 1, 0) * 25 * Time.deltaTime);
 				}
 			} else
