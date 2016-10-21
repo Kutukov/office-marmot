@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: No Name
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: e26e798d7d672c94abfcdb979cf2e2b8, type: 3}
   m_ShaderKeywords: _EMISSION _GLOSSYREFLECTIONS_OFF
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -83,6 +83,9 @@ Material:
         name: _DstBlend
       second: 0
     - first:
+        name: _Frenel
+      second: 12.2
+    - first:
         name: _GlossMapScale
       second: 1
     - first:
@@ -110,6 +113,9 @@ Material:
         name: _SpecularHighlights
       second: 1
     - first:
+        name: _SpecularPower
+      second: 0.3
+    - first:
         name: _SrcBlend
       second: 1
     - first:
@@ -125,3 +131,6 @@ Material:
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 0.49048445, g: 0.6994988, b: 0.8235294, a: 1}

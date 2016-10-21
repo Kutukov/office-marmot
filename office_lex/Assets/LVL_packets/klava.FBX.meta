@@ -1052,6 +1052,7 @@ ModelImporter:
     2300540: "x\xB2"
     2300542: Y
     2300544: Z
+    2300546: //RootNode
     3300000: A
     3300002: Alt
     3300004: Alt_Gr
@@ -1325,6 +1326,7 @@ ModelImporter:
     3300540: "x\xB2"
     3300542: Y
     3300544: Z
+    3300546: //RootNode
     4300000: polySurface5
     4300002: polySurface6
     4300004: polySurface4
@@ -1598,6 +1600,7 @@ ModelImporter:
     4300540: pCube72
     4300542: pCube76
     4300544: Espace
+    4300546: Box001
   materials:
     importMaterials: 1
     materialName: 0
